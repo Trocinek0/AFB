@@ -19,7 +19,6 @@ import YellowImg from '../../static/Colors/Yellow.png'
 const Skins: React.FC = () => {
   return (
     <>
-      <Navbar />
       <div className="grid grid-cols-4">
         <SkinsElement Name="Black" Image={BlackImg} />
         <SkinsElement Name="Blue" Image={BlueImg} />

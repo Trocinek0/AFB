@@ -11,14 +11,10 @@ import Tasks from './pages/Tasks'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/AFB/" element={<Home />} />
-        <Route path="/AFB/about" element={<About />} />
-        <Route path="/AFB/maps" element={<Maps />} />
-        <Route path="/AFB/skins" element={<Skins />} />
-        <Route path="/AFB/tasks" element={<Tasks />} />
-      </Routes>
-    </BrowserRouter>
+    <Home />
+    <About />
+    <Maps />
+    <Skins />
+    <Tasks />
   </React.StrictMode>
 )

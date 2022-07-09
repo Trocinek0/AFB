@@ -4,7 +4,6 @@ import NavBar from '../components/NavBar'
 const Tasks: React.FC = () => {
   return (
     <div>
-        <NavBar />
         <div>
             <table className="border-teal-500 border-8 border-separate border-solid mx-auto">
                         

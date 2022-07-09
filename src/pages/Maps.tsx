@@ -9,7 +9,6 @@ import Polus from '../../static/Maps/Polus.png'
 const Maps: React.FC = () => {
   return (
     <>
-      <Navbar />
       <MapsElement Name="Airship" Image={Airship} />
       <MapsElement Name="Mira_HQ" Image={Mira_HQ} />
       <MapsElement Name="The_Skeld" Image={The_Skeld} />

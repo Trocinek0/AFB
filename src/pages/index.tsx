@@ -6,7 +6,6 @@ import Ultimatesus from "../../static/Ultimatesus.png"
 const Home: React.FC = () => {
   return (
     <>
-      <Navbar />
       <div className='grid grid-cols-1'>
         <div className='mx-auto'>
           <img
